@@ -1,0 +1,56 @@
+import java.util.Scanner;
+ lass AreaOfTriangle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        //Triangle
+           System.out.println("Enter the width of the Triangle:");
+         double b= s.nextDouble();
+           System.out.println("Enter the height of the Triangle:");
+          double h= s.nextDouble();
+           Scanner t= new Scanner(System.in);
+        //Area of triangle = (width*height)/2
+         double area1=(b*h)/2;
+           System.out.println("Area of triangle is: " + area1);
+        
+        
+        //Rectangle
+         System.out.println("Enter the length of your rerctangle:");
+         double l = s.nextDouble();
+         System.out.println("Enter the width of your rectangle:");
+          double w = s.nextDouble();
+        //Area of rectangle = width*length
+          double area=(l*w);
+         System.out.println("Area of rectangle is: " + area);
+      
+      
+    
+      
+      class Areaofrectangle extends Thread  
+{  
+    public void run()  
+    {  
+        
+                 
+      
+      
+      
+      
+    }  
+}  
+class Displays extends Thread  
+{  
+    public void run()  
+    {  
+      
+         
+    }  
+}  
+   }
+   
+   
+   
+   
+}
